@@ -1,0 +1,14 @@
+First crete a file named math.js
+
+const sum = (a, b) => a + b;
+const sub = (a, b) => a - b;
+const g = 9.8;
+const PI = 3.14;
+module.exports = 123;
+
+
+
+After that i creted a file named script.js
+
+const someValue = require("./math");
+console.log(someValue);
